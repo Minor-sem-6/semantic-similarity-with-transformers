@@ -62,14 +62,3 @@ The following transformer models are analyzed in this project:
 6. **Post Fine-tuning Evaluation**
 
    * Compare improvements after training.
-
-7. **Analysis**
-
-   * Analyze performance differences across models and layers.
-
----
-
-## Datasets  
-- mohler: https://github.com/Minor-sem-6/semantic-similarity-with-transformers/tree/main
-- Bettle: https://huggingface.co/datasets/nkazi/Beetle
-- SciEntsBank: https://huggingface.co/datasets/nkazi/SciEntsBank/viewer/default/train?f%5Blabel%5D%5Bvalue%5D=1&sort%5Bcolumn%5D=label&sort%5Bdirection%5D=asc
