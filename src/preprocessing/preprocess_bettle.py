@@ -10,6 +10,8 @@ def preprocess_beetle(input_path, output_path):
 
     df["label"] = 4 - df["label"]
 
+    df.rename(columns={"label": "score"}, inplace=True)
+
     df["reference_answer"] = df["reference_answer"].apply(clean_text)
     df["student_answer"] = df["student_answer"].apply(clean_text)
 

@@ -3,8 +3,9 @@ from sklearn.metrics.pairwise import cosine_similarity
 from scipy.stats import pearsonr
 
 from src.embeddings.pythia_embedder import PythiaEmbedder
+from src.embeddings.sbert_embedder import SBERTEmbedder
+
 # teammates will add
-# from src.embeddings.sbert_embedder import SBERTEmbedder
 # from src.embeddings.t5_embedder import T5Embedder
 
 
@@ -47,10 +48,10 @@ def run_experiment(dataset_path, model_name):
     if model_name == "pythia":
         embedder = PythiaEmbedder()
 
-    # teammates will add
-    # elif model_name == "sbert":
-    #     embedder = SBERTEmbedder()
+    elif model_name == "sbert":
+        embedder = SBERTEmbedder()
 
+    # teammates will add
     # elif model_name == "t5":
     #     embedder = T5Embedder()
 
@@ -71,14 +72,13 @@ if __name__ == "__main__":
         "beetle": "Data/processed/beetle/beetle_processed.csv"
     }
 
+    models = ["pythia", "sbert"]  # teammates will add "t5"
+
     for name, path in datasets.items():
 
         print("\nDataset:", name)
-
-        similarities, corr = run_experiment(path, "pythia")
-
-        df = pd.read_csv(path)
-
-        df["similarity"] = similarities
-
-        df.to_csv(f"results/experiment1/{name}_pythia_similarity.csv", index=False)
+        for model in models:
+            similarities, corr = run_experiment(path, model)
+            df = pd.read_csv(path)
+            df["similarity"] = similarities
+            df.to_csv(f"results/experiment1/{name}_{model}_similarity.csv", index=False)
