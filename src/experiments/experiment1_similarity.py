@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 from scipy.stats import pearsonr
@@ -81,4 +82,7 @@ if __name__ == "__main__":
             similarities, corr = run_experiment(path, model)
             df = pd.read_csv(path)
             df["similarity"] = similarities
-            df.to_csv(f"results/experiment1/{name}_{model}_similarity.csv", index=False)
+            
+            output_dir = "results/experiment1"
+            os.makedirs(output_dir, exist_ok=True)
+            df.to_csv(f"{output_dir}/{name}_{model}_similarity.csv", index=False)
