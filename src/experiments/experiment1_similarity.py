@@ -5,9 +5,7 @@ from scipy.stats import pearsonr
 
 from src.embeddings.pythia_embedder import PythiaEmbedder
 from src.embeddings.sbert_embedder import SBERTEmbedder
-
-# teammates will add
-# from src.embeddings.t5_embedder import T5Embedder
+from src.embeddings.t5_embedder import T5Embedder
 
 
 def load_dataset(path):
@@ -52,9 +50,8 @@ def run_experiment(dataset_path, model_name):
     elif model_name == "sbert":
         embedder = SBERTEmbedder()
 
-    # teammates will add
-    # elif model_name == "t5":
-    #     embedder = T5Embedder()
+    elif model_name == "t5":
+         embedder = T5Embedder()
 
     similarities = compute_similarity(embedder, ref, stu)
 
@@ -73,7 +70,7 @@ if __name__ == "__main__":
         "beetle": "Data/processed/beetle/beetle_processed.csv"
     }
 
-    models = ["pythia", "sbert"]  # teammates will add "t5"
+    models = ["pythia", "sbert","t5"]  
 
     for name, path in datasets.items():
 
