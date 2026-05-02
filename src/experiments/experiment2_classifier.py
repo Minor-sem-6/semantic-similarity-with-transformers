@@ -9,6 +9,8 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, cohen_kappa
 from scipy.stats import pearsonr
 
 from src.embeddings.sbert_embedder import SBERTEmbedder
+from src.embeddings.pythia_embedder import PythiaEmbedder
+from src.embeddings.t5_embedder import T5Embedder
 
 def create_features(embedder, ref_texts, stu_texts):
 
@@ -90,31 +92,35 @@ if __name__ == "__main__":
     output_dir = "results/experiment2"
     os.makedirs(output_dir, exist_ok=True)
 
-    embedder = SBERTEmbedder()
+    embedders = {
+        "sbert": SBERTEmbedder(),
+        "pythia": PythiaEmbedder(),
+        "t5": T5Embedder()
+    }
 
     summary = []
 
-    for name, path in datasets.items():
+    for model_name, embedder in embedders.items():
+        for name, path in datasets.items():
 
-        print("\n==============================")
-        print("Dataset:", name)
-        print("==============================")
+            print("\n==============================")
+            print("Dataset:", name)
+            print("==============================")
 
-        df, idx_test, y_pred, corr, rmse, mae, qwk = run_experiment(path, embedder)
+            df, idx_test, y_pred, corr, rmse, mae, qwk = run_experiment(path, embedder)
 
-        df["predicted_score"] = np.nan
-        df.loc[idx_test, "predicted_score"] = y_pred
+            df["predicted_score"] = np.nan
+            df.loc[idx_test, "predicted_score"] = y_pred
 
-        df.to_csv(f"{output_dir}/{name}_sbert_classifier.csv", index=False)
-
-        summary.append({
-            "dataset": name,
-            "model": "sbert_classifier",
-            "pearson": corr,
-            "rmse": rmse,
-            "mae": mae,
-            "qwk": qwk
-        })
+            df.to_csv(f"{output_dir}/{name}_{model_name}_classifier.csv", index=False)
+            summary.append({
+                "dataset": name,
+                "model": f"{model_name}_classifier",
+                "pearson": corr,
+                "rmse": rmse,
+                "mae": mae,
+                "qwk": qwk
+            })
 
     summary_df = pd.DataFrame(summary)
     summary_df.to_csv(f"{output_dir}/metrics_summary.csv", index=False)
