@@ -2,18 +2,6 @@
 data/*
 Data/*
 
-# results
-results/*
-!results/experiment1/
-results/experiment1/*.csv
-results/experiment1/*.png
-
-# Allow summary results
-!results/experiment1/metrics_summary.csv
-!results/experiment1/pearson_comparison.png
-!results/experiment1/rmse_comparison.png
-!results/experiment1/pearson_heatmap.png
-
 # model weights
 *.pt
 *.pth

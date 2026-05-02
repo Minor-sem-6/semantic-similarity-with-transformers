@@ -1,0 +1,790 @@
+reference_answer,student_answer,score,predicted_score
+terminal 6 and the positive terminal are connected,gap in 6,3,2.789
+terminal 5 and the positive terminal are connected,terminal 4 is connected to the positive battery terminal.,1,3.866
+terminal 1 and the positive terminal are separated by the gap,there is a difference of 1.5 volts between terminal 1 and the positive terminal,2,3.186
+the battery in 2 is not in a closed path,circuit 2 has a bulb on a closed path,3,2.529
+terminals 1 and 2 are connected,because there is no gap between the terminals,4,2.918
+"if bulb a burns out, b and c are no longer in a closed path with the battery",the path is not closed.,4,3.114
+terminals 1 and 2 are connected,there was a gap from terminal 2 to terminal 6,1,3.578
+bulb a is still contained in a closed path with the battery.,bulb a was on a closed path,2,2.651
+the bulb is damaged,the terminals have gone from being connected to each other to not being connected to each other - there is a gap,4,3.442
+voltage is the difference in electrical states between two terminals,potential difference,3,2.339
+bulb a was still contained in the same closed path with the battery.,bulb a is contained in the closed path with switch x. switch y is not in the closed path with bulb a.,4,3.421
+terminal 1 and the positive terminal are separated by the gap,the positive and the negative sides of the battery are separated by the gap,4,2.895
+terminal 1 and the positive terminal are separated by the gap,terminal 1 is seperated from the positive terminal,4,3.1
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,it allows you to measure if there is gap. gaps indicate a break in the electrical flow.,4,3.156
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",switch z is contained in a closed path,2,2.564
+a and c are in the same closed path,that is all,0,2.121
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,you can find which bulb is burned out,2,2.95
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",switch z is closed so it still creates a complete path to the battery,3,2.807
+a battery uses a chemical reaction to maintain different electrical states at the terminals,the battery has a different electrical state than the incomplete circuit,3,2.903
+circuit 4 has no closed paths,circuit 4 has no terminal to the bulb,3,2.338
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,measuring voltage checks for connections and gaps. it measures the electrical states between two terminals.,2,3.135
+terminal 3 and the positive terminal are separated by the gap,positive and negative is seperate,1,2.73
+if a bulb and a switch are in the same path the switch affects the bulb,there is no path when a switch is open,3,2.511
+a and c are in different paths with the battery,they are not in the same closed path,4,3.893
+bulbs a and c are still in closed paths with the battery,c is not within the same path as b,2,2.923
+if a bulb and a switch are in the same path the switch affects the bulb,the switch is contained in the path,2,2.263
+"terminals 4, 5 and 6 are not connected to the negative battery terminal","terminal 4, terminal 5, and terminal 6 are connected to the positive battery terminal",4,3.564
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.",if bulb a is out it does not affect the other bulbs because it is on a different path. if either b or c is out both b and c will be out but a will not be because bulb a is not on the same path with bulb b or c,4,2.706
+voltage is the difference in electrical states between two terminals,the amount of volts,3,2.559
+bulbs a and c are still in closed paths with the battery,because a and c are still in a closed circuit,3,3.246
+"terminals 4, 5 and 6 are not connected to the negative battery terminal","4, 5, and 6 are connected to the positive side",4,3.084
+terminal 1 and the positive terminal are separated by the gap,terminal 2 was connected to the negative terminal,3,3.208
+voltage is the difference in electrical states between two terminals,the difference in electrical states between two terminals,4,3.342
+bulbs a and c are still in closed paths with the battery,they are all on different closed paths and there will be no gap in between them,4,3.605
+when the switch and the bulb are contained in the same path,opened path,2,3.019
+bulb a was still contained in the same closed path with the battery.,they are contained in the same path.,2,3.463
+bulbs a and c are still contained in closed paths with the battery,bulb b did not create a gap for bulb a and c,2,2.731
+when the switch and the bulb are contained in the same path,an open switch contained in the path will leave a gap,2,2.852
+the battery is damaged,a red x means the battery is in a short circuit.,4,2.958
+terminal 6 and the positive terminal are connected,connect to the terminal,2,2.973
+bulb a is still contained in a closed path with the battery.,because switch y does not affect the circuit that bulb a is on,3,2.654
+bulb a is still contained in a closed path with the battery.,the battery is in a closed path and bulb a is connected to switch z,2,2.927
+bulb a is still contained in a closed path with the battery.,bulb a is in a complete curcuit when switch z is closed. the battery terminals are connected to bulb a terminals to form a complete curcuit,4,3.269
+bulb a was still contained in the same closed path with the battery.,bulb a was in a closed path with the battery.,4,3.829
+the terminals are connected,there is a gap in the connection.,3,3.19
+if a bulb and a switch are in the same path the switch affects the bulb,the path opens the circuit,3,2.593
+circuit 4 has no closed paths,the battery and light bulb are not contained in a close path,4,3.284
+the bulb is damaged,"i don""t know",0,0.077
+the battery is damaged,that the battery has created a short circut and is dangerous,4,3.41
+terminal 1 and the positive terminal are separated by the gap,because there was a gap between the positive battery terminal and terminal 1.,4,3.634
+the terminals are not connected,their is a gap.,4,3.415
+voltage is the difference in electrical states between two terminals,a difference is electrical states between two terminals,2,2.809
+the open switch creates a gap,the circuit is no longer complete when the switches are open,4,3.337
+a and c are in the same closed path,they are on the same closed path,4,3.818
+bulb a was still contained in the same closed path with the battery.,because it is still in a closed circuit,3,2.816
+when the switch and the bulb are contained in the same path,if the switch is located in front of a bulb on the same path.,3,3.173
+a battery uses a chemical reaction to maintain different electrical states at the terminals,a chemical reaction inside the battery makes the electrical states of the positive and negative terminals different at all times.,4,2.087
+b and c are in the same path with the battery,bulbs b and c are contained in the same path with the battery.,4,3.895
+if c burns out then a and b are still in a closed path with the battery,bulb a and c are still contained in closed paths with the battery,3,3.837
+when the switch and the bulb are contained in the same path,when the bulb and switch are contained in the same path.,4,3.611
+if c burns out then a and b are still in a closed path with the battery,"i don""t know.",0,0.45
+"terminals 1, 2 and 3 are connected to the negative battery terminal",the damaged bulb b has left a gap in the path so the charge can not reach it,2,3.007
+terminal 3 and the positive terminal are separated by the gap,the positve battery terminal is separated by a gap from terminal 3,4,3.873
+there is a closed path containing both the bulb and a battery,battery terminals match the bulb terminals,3,2.606
+terminals 1 and 4 are connected,terminal 1 i connected to terminal 6,3,3.052
+the battery in 2 is not in a closed path,the battery is connected to only one side of the bulb and is only running electricity back to the battery.,3,2.901
+terminal 1 and the positive terminal are separated by the gap,terminal one is connected to the negative terminal and terminal 1 is seperated from the positive terminal by a gap,4,3.277
+if c burns out then a and b are still in a closed path with the battery,bulbs a and b are on a different closed path,4,3.508
+the battery in 2 is not in a closed path,the battery is connected to the bulb,2,2.207
+bulbs a and c are still contained in closed paths with the battery,they were on closed paths containing the battery,4,3.54
+terminal 5 and the positive terminal are connected,because. it was on the wrong side.,3,2.855
+terminal 6 and the positive terminal are connected,there is a gap in the connection,3,2.369
+"if bulb a burns out, b and c are no longer in a closed path with the battery",bulb b and c will no be in a closed path with the battery,4,3.64
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",there is a closed path that contains bulb and a battery,2,3.104
+"terminals 1, 2 and 3 are connected to the negative battery terminal",because they have the same voltage,1,2.388
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,the electrical state difference tells you where the gap is.,4,3.078
+terminal 6 and the positive terminal are connected,there is no gap seperating the positive battery terminal from terminal 6,4,3.759
+if c burns out then a and b are still in a closed path with the battery,because bulb c is not in the same ppath,4,3.282
+the battery in 2 is not in a closed path,the battery is not contained in a circut,2,2.783
+the battery in 2 is not in a closed path,the battery is not connected in the closesd path,4,3.411
+voltage is the difference in electrical states between two terminals,the difference between terminals.,2,2.044
+the open switch creates a gap,the path is not closed.,4,3.632
+terminals 1 and 6 are separated by the gap,there is a gap between them - not connected,4,3.097
+there is a closed path containing both the bulb and a battery,both the light bulb and battery must be in a closed path circuit.,4,3.181
+bulbs b and c are still in closed paths with the battery,"my b, they will be on, not in the same path",4,3.202
+the battery in 2 is not in a closed path,the bulb is in a closed circuit,3,2.944
+b and c are in the same path with the battery,they are contained in the same path as the battery,4,3.807
+circuit 4 has no closed paths,the battery is not in a closed path.,4,3.696
+"terminals 1, 2 and 3 are connected to the negative battery terminal","1, 2, and 3 have 0 volts. the negative side of the battery begins at 0 volts.",3,2.977
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,allows you to identify any gaps,2,2.93
+the terminals are connected,it is negative,3,2.607
+the bulb is damaged,negative to positive terminals,3,2.988
+when the switch and the bulb are contained in the same path,when it is on the same path,4,3.475
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.",bulb a does not affect the other bulbs,2,2.281
+there is a closed path containing both the bulb and a battery,closed paths around the light bulb and the battery,4,2.727
+bulb c was no longer in a closed path with the battery,because for the currents from both terminals of the battery to reach bulb c switch z and y must be closed.,3,2.727
+terminal 4 and the positive terminal are connected,terminal 4 is connected to the positive terminal,4,3.816
+terminal 6 and the positive terminal are connected,because there was two positive connections,3,3.084
+if c burns out then a and b are still in a closed path with the battery,the bulb in burned out,1,2.781
+bulb a is still contained in a closed path with the battery.,"only switch z is in bulb a""s closed path circuit",4,2.92
+terminal 6 and the positive terminal are connected,terminal is connected to postive terminal of the battery,4,3.45
+the battery in 2 is not in a closed path,the battery is not contained in a closed path.,4,3.644
+when the switch and the bulb are contained in the same path,if switch and bulb are contained in the same closed path,4,3.649
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,voltage shows where the gap is,2,2.977
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.","bulb a is contained entirely in it""s own closed circuit. bulbs b and c are contained in the same closed circuit, therefore, affecting each other when burned out.",3,3.213
+terminal 2 and the positive terminal are separated by the gap,"the terminals are not connected - there""s a gap",4,3.023
+a battery uses a chemical reaction to maintain different electrical states at the terminals,a battery is in a constant state of electricity,2,2.646
+bulb b creates a gap,there would be a gap.,4,3.698
+if a bulb and a switch are in the same path the switch affects the bulb,a switch affects a bulb when it is in a closed path with a battery.,2,2.847
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.",bulb a does not affect the path of bulb b and c,4,2.389
+the battery in 2 is not in a closed path,because there is a bulb in one of the paths.,3,2.325
+voltage is the difference in electrical states between two terminals,negative and positive difference,2,2.431
+bulb c was no longer in a closed path with the battery,bulb c had a gap in the path with the battery,4,3.617
+b and c are in the same path with the battery,bulb b and bulb c are on the same closed path,4,3.489
+terminal 6 and the positive terminal are connected,terminal 6 was only connected to the positive terminal.,4,3.795
+if they are in the same path the burned out bulb affects the other bulb.,if the damaged bulb is in the same path as the other bulb.,4,3.838
+the terminals are connected,there is a gap between the bul and battery terminal.,3,3.042
+a and c are in the same closed path,they are contained in the same path. if one bulb goes out it will affect the other ones.,4,3.396
+when the switch and the bulb are contained in the same path,"if the bulb and the swtich are contained in the same path, then the switch affects the bulb.",4,2.598
+bulb a is still contained in a closed path with the battery.,it was on a complete circuit,4,2.568
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.",no fuck you,0,0.622
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,burnt bulbs have no voltage at one of there terminals.,3,3.176
+terminal 3 and the positive terminal are separated by the gap,the positive battery terminal is separaed by a gap from terminal 3,4,3.84
+"if c burns out, then a and b are still in a closed path with the battery.",bulb c is on a seperate pathway from a and b which are still connected to the battery.,2,3.539
+"if c burns out, then a and b are still in a closed path with the battery.",because they will still work,2,2.627
+terminal 6 and the positive terminal are connected,the positive battery terminal is not seperated by a gap from terminal 6,4,3.952
+when the switch and the bulb are contained in the same path,when the switch is the in a closed path with the bulb,4,3.606
+if a bulb and a switch are in the same path the switch affects the bulb,the path must contain a battery,2,2.252
+"terminals 1, 2 and 3 are connected to the negative battery terminal",those terminals are only connected to the negative battery terminal,4,3.045
+bulbs b and c are still in closed paths with the battery,because bulb a is not in the same path as bulb b and c,4,3.681
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.",the bulb does not affect another bulb if they are on different paths,2,2.486
+bulb a is still contained in a closed path with the battery.,i have no idea,0,0.432
+a and c are in the same closed path,"if one is out the others will go out, they are in the same closed path",4,3.486
+the terminals are connected,to a battery,3,2.452
+the battery in 2 is not in a closed path,beccause the bulb is in a closed path not the battery.,3,3.491
+terminals 1 and 2 are connected,connectedtto - side,2,2.631
+there is a closed path containing both the bulb and a battery,a battery and a closed circuit.,3,3.234
+a damaged bulb creates a gap,it creates a gap in the circuit,4,3.529
+terminal 1 and the positive terminal are separated by the gap,because it was attached to the postive terminal!,3,2.074
+if a bulb and a switch are in the same path the switch affects the bulb,"if a path has an open ciricuit, all bulbs on the path will be off",3,2.652
+the terminals are connected,that it is damaged.,3,3.302
+bulb a was still contained in the same closed path with the battery.,beacuse it was in a closed path with the battery,4,3.405
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.",there is one path though bulb a and a second path through bulb b and c. the two paths are independent from one another. if one bulb goes out in one of the path it only affect the bulbs within that same path,4,2.746
+there is a closed path containing both the bulb and a battery,a component to the battery,3,2.333
+if c burns out then a and b are still in a closed path with the battery,bulb c is in an independent path,4,2.819
+the terminals are not connected,they are connected to each other,3,3.615
+bulb a was still contained in the same closed path with the battery.,bulb a is contain in a closed path,2,2.679
+bulbs b and c are still in closed paths with the battery,bulb b and c are on a closed path to the battery,2,3.423
+terminal 6 and the positive terminal are connected,terminal 6 is connected to the positive terminal.,4,3.85
+the terminals are connected,i dont know the rest,0,1.244
+a and c are in different paths with the battery,yes,3,2.816
+a battery uses a chemical reaction to maintain different electrical states at the terminals,the terminal has an electrical state between terminals,2,2.697
+"if bulb a burns out, b and c are no longer in a closed path with the battery",bulb a is in the closed path,2,3.082
+"if bulb a burns out, b and c are no longer in a closed path with the battery",bulb b is in a closed path with the battery,3,3.4
+there is a closed path containing both the bulb and a battery,closed circuit with a battery,3,2.556
+the battery is contained in a path in which there is no bulb,and the battery,2,2.934
+a battery uses a chemical reaction to maintain different electrical states at the terminals,the terminals used by the battery have no gap.,3,2.26
+the open switch creates a gap,it is not a closed path.,2,3.772
+the terminals are not connected,they are connected to the positive battery terminal,3,3.382
+if they are in the same path the burned out bulb affects the other bulb.,a damaged bulb will affect another bulb when it creates a gap in the closed path with the battery,2,2.598
+terminal 1 and the positive terminal are separated by the gap,because bulb c created a gap so then it had both a positive and negative charge.,3,2.525
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",beacuse there is a complete path without switch y,3,3.024
+bulbs b and c are still in closed paths with the battery,bulbs b and c are on a closed path with the battery,4,3.936
+there is a closed path containing both the bulb and a battery,matching the positive charge with the right charge.,3,2.486
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.","if the bulb is contained in a closed path with another bulb, it will affect it",2,2.692
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.",bulb a is in a closed path with the battery. bulb b and bulb c are in series in a closed path with the battery. bulb a is in parallel with bulb b and bulb c.,4,2.877
+terminal 3 and the positive terminal are separated by the gap,terminal 3 was connected to the negative terminal,4,3.359
+the terminals are connected,its not recieving from either the negative or positive terminal,3,3.165
+bulbs a and c are still in closed paths with the battery,bulb a and c will still be contained within a closed path of the battery,4,3.866
+voltage is the difference in electrical states between two terminals,terminals,2,2.743
+"if bulb a burns out, b and c are no longer in a closed path with the battery",there will be a gap in the path,2,2.684
+the open switch creates a gap,because the battery runs in a closed circuit.,3,3.697
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,it checks the electrical state between two terminals.,2,2.87
+a damaged bulb creates a gap,no path for the circuits,2,3.322
+"if bulb a burns out, b and c are no longer in a closed path with the battery",bulb a is contained in closed paths with the battery,3,3.469
+a and c are in different paths with the battery,they are not wired in the same closed path,4,3.717
+terminal 4 and the positive terminal are connected,gap in circuit at bulb b causes the voltage reading to be 0,2,2.465
+bulb c was no longer in a closed path with the battery,gap in the path to the battery,2,2.794
+circuit 4 has no closed paths,the path is not closed,4,3.379
+bulb a is still contained in a closed path with the battery.,because bulb a was in a closed path with the battery,4,3.345
+a and c are in the same closed path,bulb a affects bulb c. bulb c affects bulb a.,2,2.467
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,you are able to find where the voltage begins. this helps you locate the gap.,3,2.854
+if a bulb and a switch are in the same path the switch affects the bulb,"if the switch is contained in the same path as the bulb and battery, it must be closed for the bulb to be connected.",4,2.86
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.",whichever bulb is in the same closed path effects eachother,2,2.086
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",the circuit is closed,3,2.679
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",there is another path through switch z,2,3.196
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.","bulb a is not in the same path of bulb b and c. if bulb a is damaged, bulbs b and c are still lit.",4,3.547
+a battery uses a chemical reaction to maintain different electrical states at the terminals,the voltage of the battery does not depend on the components in a curcuit. it depends on a chemical reaction.,2,2.777
+bulbs b and c are still in closed paths with the battery,the switch and the bulb are contained in the same path,3,3.344
+the terminals are connected,there is no difference in electrical states.,4,1.828
+terminals 1 and 6 are separated by the gap,there is a gap between 1 and 6,4,3.467
+bulb a is still contained in a closed path with the battery.,bulb a is connected to switch z,2,2.584
+a damaged bulb creates a gap,because a damaged bulb will have a gap.,4,3.84
+circuit 4 has no closed paths,the battery is not in the closed path,4,3.572
+a battery uses a chemical reaction to maintain different electrical states at the terminals,battery will always have voltage.,2,2.945
+a and c are in the same closed path,the are on the same path,4,3.363
+voltage is the difference in electrical states between two terminals,the difference between two terminals,2,2.771
+"terminals 4, 5 and 6 are not connected to the negative battery terminal",they are connected to both positive and negative battery terminals,3,3.47
+the battery is contained in a path in which there is no bulb,the battery is on a closed path,2,2.611
+"terminals 4, 5 and 6 are not connected to the negative battery terminal",terminal is connected to postive end of battery,3,2.618
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.",if a a bulb is out on the some path as another bulb than the bulb is also out,2,2.274
+voltage is the difference in electrical states between two terminals,measure of electrical current?,3,1.066
+a damaged bulb creates a gap,a damaged bulb no longer completes the circut.,4,3.438
+terminal 2 and the positive terminal are separated by the gap,the posiive battery terminal is separated by a gap from terminal 2,4,3.667
+"terminals 1, 2 and 3 are connected to the negative battery terminal",those terminals are connected to the negative side of the circut,2,2.324
+bulb a is still contained in a closed path with the battery.,because it buld a was in a closed path with a battery.,4,3.624
+the open switch creates a gap,the gap in the circuit causes the circuit to be an open circuit,3,3.095
+bulb b creates a gap,a damaged bulb does not create a gap in a closed path,3,3.228
+terminal 6 and the positive terminal are connected,tell answer,0,0.277
+terminal 6 and the positive terminal are connected,there is a gap between terminal 6 and a positive battery terminal,3,3.611
+a and c are in the same closed path,bulbs a and c affect each other.,2,2.334
+terminal 1 and the positive terminal are separated by the gap,the terminal is connected to the negative terminal of the battery,2,2.484
+the terminals are connected,they are in the same electrical state,4,3.128
+circuit 4 has no closed paths,the batter is not contained in a closed path.,4,3.717
+"terminals 1, 2 and 3 are connected to the negative battery terminal",because they have 0 voltz,3,1.315
+the battery in 2 is not in a closed path,the attery is not in a closed path,4,3.367
+the open switch creates a gap,it creates a short circuit.,3,3.802
+circuit 4 has no closed paths,i have no idea,0,0.692
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.","bulb a doesn""t affect bulb b or c",2,2.639
+the battery is damaged,that the battery does not work.,2,2.683
+there is a closed path containing both the bulb and a battery,"i order to make a bulb light up, there has to be a battery and the right connections.",2,2.26
+terminal 6 and the positive terminal are connected,terminal 6 is connected to the positive battery terminal,4,3.869
+terminal 4 and the positive terminal are connected,terminal 4 is connected to the positive battery,4,3.492
+terminal 1 and the positive terminal are separated by the gap,there is no gap between the posittive terminal and terminal 1,3,3.579
+"terminals 1, 2 and 3 are connected to the negative battery terminal",because the are all connected to the negative battery terminal.,4,3.29
+a battery uses a chemical reaction to maintain different electrical states at the terminals,because the battery contains chemicals that differe in electrical states.,3,2.259
+circuit 4 has no closed paths,the battery is not contained in a closed path.,4,3.758
+terminals 1 and 6 are separated by the gap,terminal 6 is connected to the positive battery terminal,2,2.813
+the open switch creates a gap,the open switch makes the path open,4,3.165
+"if c burns out, then a and b are still in a closed path with the battery.",bulbs a and b are on a closed path with the battery,4,3.855
+"terminals 1, 2 and 3 are connected to the negative battery terminal","i don""t know",0,0.037
+voltage is the difference in electrical states between two terminals,voltage is a property of batteries. voltage is the difference between electrical currents in two terminals.,3,2.938
+when the switch and the bulb are contained in the same path,if the switch is contained in the same path with the bulb,4,3.463
+bulbs a and c are still contained in closed paths with the battery,"because of the seperate closed paths, one bulb being burned out doesn""t affect the others.",4,2.493
+the terminals are connected,that there is a gap,3,2.908
+the bulb is damaged,there terminals are separated by a gap when the voltage jumps from 0 to 1.5.,4,3.07
+if a bulb and a switch are in the same path the switch affects the bulb,bulbs will be affected by switches that are in the path to the battery,2,2.397
+terminal 5 and the positive terminal are connected,terminal 5 is connected to the positive terminal,4,3.846
+a and c are in the same closed path,"bulbs a, b, and c are all in the same path.",2,3.456
+the battery in 2 is not in a closed path,the battery is not contained in the circuit.,3,3.353
+"terminals 4, 5 and 6 are not connected to the negative battery terminal",because they are in a closed path,3,2.889
+the battery is contained in a path in which there is no bulb,the battery is not connected to the bulb,2,2.686
+a damaged bulb creates a gap,there will be a gap in the circuit.,4,3.801
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",becuase it can follow that path that switch z is on,2,2.819
+bulb b and bulb c were still contained in the same closed path with the battery.,they were in a closed path with the battery,4,3.882
+terminals 1 and 2 are connected,there is not a gap between terminal 1 and terminal 2.,4,3.096
+"if bulb a burns out, b and c are no longer in a closed path with the battery",a is in the same path,2,2.827
+terminal 1 and the positive terminal are separated by the gap,there is no gap between terminal 1 and the psoitive terminal,3,3.252
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",beacuse there is a complete circut without y being involved,4,3.052
+bulb a was still contained in the same closed path with the battery.,bulb a and the battery were in a closed path,4,3.014
+terminal 2 and the positive terminal are separated by the gap,the positive bettery terminal is separated by a gap from terminal 2.,4,3.566
+"if c burns out, then a and b are still in a closed path with the battery.","there will still be a closed path containing bulb a, bulb b and the battery.",4,3.45
+terminal 1 and the positive terminal are separated by the gap,because there was a positive and negative connection,3,2.778
+terminal 1 and the positive terminal are separated by the gap,there is a gap after bulb b,2,2.224
+a battery uses a chemical reaction to maintain different electrical states at the terminals,because they are in the same electrical state,3,2.79
+bulb b creates a gap,there will be a gap between bulbs,2,2.989
+bulb b creates a gap,when bulb b is damaged there is no complete circut,4,3.174
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",tell answer,0,0.28
+bulb b and bulb c were still contained in the same closed path with the battery.,bulbs b and c were still contained in a closed path with the battery.,4,3.936
+the bulb is damaged,that you have found the bulb that is damaged,4,3.52
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,it will help find where the gap in the circuit is.,2,2.848
+"terminals 4, 5 and 6 are not connected to the negative battery terminal",+ releases current - recieves it?,3,1.382
+circuit 4 has no closed paths,not a closed path,2,3.623
+terminal 1 and the positive terminal are separated by the gap,i dint know.,0,0.448
+terminal 6 and the positive terminal are connected,because the positive terminal is connected to terminal 6,4,3.812
+"terminals 1, 2 and 3 are connected to the negative battery terminal","terminals 1,2, and 3 are in the same state as the negative battery terminal because each has an equal difference in electrical states",3,2.411
+terminals 1 and 2 are connected,there was a gap between the positive battery terminal and terminal 1.,3,2.572
+terminal 1 and the positive terminal are separated by the gap,there is a separation,2,2.479
+bulbs b and c are still in closed paths with the battery,bulb b and bulb b are still in a closed path with the battery.,4,3.85
+if a bulb and a switch are in the same path the switch affects the bulb,"if the switch is contained in the path with the bulb, the switch affects the bulb.",4,2.652
+"terminals 1, 2 and 3 are connected to the negative battery terminal",1 2 and 3 are on thnegative side,2,3.077
+bulb b and bulb c were still contained in the same closed path with the battery.,because b and c were still on a closed path with the battery,4,3.815
+the bulb is damaged,that the bulb is damaged,4,3.775
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,because if there is a gap you will be able to determine where the burned out bulb is located.,2,3.35
+terminals 1 and 2 are connected,both terminals were connected to the negative terminal of the battery,2,2.627
+bulb b and bulb c were still contained in the same closed path with the battery.,bulb b and c were still contained in a closed path with the battery.,4,3.928
+the terminals are connected,the electrical states of the bulb terminal and the battery terminal are the same.,4,3.199
+bulb a is still contained in a closed path with the battery.,be cause there is an electrical connection,3,2.486
+voltage is the difference in electrical states between two terminals,voltage is the difference between the positive terminal and negative terminal in a battery.,2,3.029
+terminal 3 and the positive terminal are separated by the gap,because. it was attached to the positive terminal.,3,3.011
+bulb a is still contained in a closed path with the battery.,the bettery is contained in the terminal,3,2.713
+a damaged bulb creates a gap,"if the bulb is damaged in the same circuit as the other bulbs, the other bulbs will not work because the circuit went out",2,2.94
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.",i do not understand,0,0.341
+a and c are in different paths with the battery,they are not contained on the same path,4,3.614
+if a bulb and a switch are in the same path the switch affects the bulb,the switch is contained in the pathway of the bulb and the battery,4,2.658
+bulb a is still contained in a closed path with the battery.,because bulb a is not in the same path as switch y,4,2.685
+bulb b and bulb c were still contained in the same closed path with the battery.,bulb b and bulb c were still contained in a closed path with the battery,4,3.939
+bulb a is still contained in a closed path with the battery.,it was in the same circuit as y.,3,2.53
+a and c are in different paths with the battery,bulbs are on different closed paths,4,3.627
+a damaged bulb creates a gap,there is no connection between the ... circuits.,2,3.324
+a battery uses a chemical reaction to maintain different electrical states at the terminals,because the two terminals will always have different electrical states.,2,2.363
+there is a closed path containing both the bulb and a battery,battery must be contained in bulb,3,2.186
+terminal 1 and the positive terminal are separated by the gap,terminal negative,3,2.242
+bulbs b and c are still in closed paths with the battery,b and c are not in the same circuit as a.,3,3.121
+the battery is damaged,it is an open path.,3,3.476
+circuit 4 has no closed paths,the battery is not closed in a closed path.,4,3.702
+bulb a was still contained in the same closed path with the battery.,the path was closed,2,2.637
+if a bulb and a switch are in the same path the switch affects the bulb,i give up.,0,1.436
+terminal 1 and the positive terminal are separated by the gap,because it was connected to the positive side.,3,2.469
+"terminals 1, 2 and 3 are connected to the negative battery terminal",on the same side,2,2.512
+"if c burns out, then a and b are still in a closed path with the battery.",because a and b are in series and a and c are in parallel,2,2.932
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.",im not sure how to,0,1.005
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,a electrical state difference?,2,1.41
+the terminals are connected,i do not know,0,0.049
+the battery is damaged,it is wrong.,3,2.798
+b and c are in the same path with the battery,they are contained in the same closed path,4,3.777
+the battery is damaged,a short circuit has occured,4,3.114
+bulb a is still contained in a closed path with the battery.,a is on a battery that has a closed path,3,2.824
+bulb c was no longer in a closed path with the battery,the path it was on,2,2.588
+"if c burns out, then a and b are still in a closed path with the battery.",still have connection to battery,2,2.468
+the open switch creates a gap,the path is complete,3,3.188
+the bulb is damaged,terminal is connected to battery and bulb will light,3,2.609
+terminal 2 and the positive terminal are separated by the gap,has to do something with a gap,2,2.864
+bulbs a and c are still in closed paths with the battery,they still have their own closed paths,4,3.82
+"terminals 4, 5 and 6 are not connected to the negative battery terminal","there is a gap in the circuit that causes a gap between terminals 1,2,and 3 and 4,5,and 6",2,3.219
+terminal 3 and the positive terminal are separated by the gap,the positive battery terminal is separated by a gap from terminal 1.,3,3.21
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,because it shows you what terminals are connected,2,2.994
+circuit 4 has no closed paths,because the battery and the bulb are not in a closed path.,4,3.737
+"terminals 1, 2 and 3 are connected to the negative battery terminal",because bulb b is damaged and does not allow the positive battery current to reach the other side.,2,2.509
+if c burns out then a and b are still in a closed path with the battery,they are in separate paths.,3,3.543
+terminals 1 and 6 are separated by the gap,"terminal 1 and terminal 6 are not connected, there is a gap",4,2.793
+if they are in the same path the burned out bulb affects the other bulb.,when they are on the same path,4,3.432
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,the electrical states of two terminals when connected will determine the gaps and help to locate a burned out bulb.,3,3.585
+terminal 6 and the positive terminal are connected,the positive terminal is connected to terminal 6,4,3.914
+a and c are in the same closed path,each bulb affects the other bulbs,2,2.525
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,"the electrical state between two terminals is the voltage. a gap shows voltage, while a connection results in no voltage.",3,3.283
+bulb b creates a gap,there is no path between the bulb-holders,3,3.093
+terminal 2 and the positive terminal are separated by the gap,the positive battery terminal and terminal 2 are not connected,4,3.694
+terminals 1 and 2 are connected,they are both connected to the negative battery terminal.,4,2.378
+terminal 1 and the positive terminal are separated by the gap,the difference between the electrical states is 1.5 volts,1,2.545
+if a bulb and a switch are in the same path the switch affects the bulb,a switch affects a bulb only on the same path,4,2.551
+the battery is damaged,i think the red x means that this is dangerous and should never happen unless something is seriously wrong.,2,2.267
+voltage is the difference in electrical states between two terminals,0.0,3,2.535
+the battery is contained in a path in which there is no bulb,the blub is not contained in the same closed path as the battery,4,3.36
+"if c burns out, then a and b are still in a closed path with the battery.","c does not effect the others, their paths are still closed",4,2.781
+if a bulb and a switch are in the same path the switch affects the bulb,the relationship between the path and the bulb has to be closed,3,2.393
+terminal 3 and the positive terminal are separated by the gap,the positive battery terminal is seperated by a gap from terminal 3.,4,3.767
+"terminals 4, 5 and 6 are not connected to the negative battery terminal","terminal 4, terminal 5, and terminal 6 are connected to the positive terminal of the battery.",4,3.743
+a and c are in different paths with the battery,bulb a and bulb c are contained in the same path,3,3.361
+a and c are in the same closed path,the bulbs are on the same path,2,3.426
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,registering a voltage at a location tells you there is a gap somewhere in between the measured terminals,2,2.723
+the battery is contained in a path in which there is no bulb,closed path and battery,2,2.966
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,an electircl aasoidrjf,0,1.237
+"terminals 1, 2 and 3 are connected to the negative battery terminal",the terminal is connected to the bulb,2,2.307
+terminal 1 and the positive terminal are separated by the gap,terminal 1 is not connected to the positive terminal.,4,3.395
+terminal 4 and the positive terminal are connected,terminal 4 is connected to the positve battery terminal and it is not seperated by a gap,4,3.392
+the bulb is damaged,the bulb is connected from a negative terminal to a positive terminal,3,3.077
+if they are in the same path the burned out bulb affects the other bulb.,there will be a gap in the path.,2,3.045
+there is a closed path containing both the bulb and a battery,the battery and the light bulb are in a closed circuit path.,3,3.451
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",because bulb a is in a closed path with the battery.,4,3.371
+the open switch creates a gap,it creates a gap int he circuit.,4,3.793
+circuit 4 has no closed paths,circuit 4 is contained in an open path,2,3.252
+bulbs a and c are still contained in closed paths with the battery,they are on their own closed paths with the battery,4,3.747
+a and c are in different paths with the battery,bulb a and bulb c are on different closed paths,4,3.638
+bulbs b and c are still in closed paths with the battery,closed path,2,2.891
+the battery in 2 is not in a closed path,the battery is not contained in a closed path,4,3.473
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,"because by measuring voltage, you find the gap where there""s a difference in electrical states.",4,3.094
+a and c are in different paths with the battery,bulb a and bulb c are contaiend in different paths with the battery,4,3.458
+the open switch creates a gap,it creates a gap in the current.,2,3.693
+if c burns out then a and b are still in a closed path with the battery,bulbs a and b are still connected to the closed circuit containing the battery,3,3.759
+"terminals 1, 2 and 3 are connected to the negative battery terminal",there is a gap,2,2.25
+"terminals 1, 2 and 3 are connected to the negative battery terminal",because they are connected,2,3.028
+if c burns out then a and b are still in a closed path with the battery,"through bulb a, bulb b is still contained in a closed path to the battery.",4,3.671
+bulbs a and c are still in closed paths with the battery,there is still a closed path,2,2.277
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,because it measures the difference in electrical states between two gaps,3,2.838
+terminal 1 and the positive terminal are separated by the gap,because there is a gap between terminal 3 and 4,2,2.828
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.",bulb a is on a closed path with the battery. bulb a is not affected by bulbs b or c. bulbs b and c are on the same path. they affect one another. bulbs b and c are not affected by bulb a.,2,2.996
+when the switch and the bulb are contained in the same path,it will turn it off,1,2.344
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,electrical state is not connected to volts,3,2.753
+terminal 2 and the positive terminal are separated by the gap,i dont know.,0,0.249
+bulb c was no longer in a closed path with the battery,bulb c in not contained in a closed path.,4,3.488
+bulbs b and c are still in closed paths with the battery,bulbs b an c will still be contained in a closed path to the battery.,4,3.824
+a battery uses a chemical reaction to maintain different electrical states at the terminals,there is a difference between the electrical states of the two battery terminals because they are not connected to each other,2,2.833
+"terminals 1, 2 and 3 are connected to the negative battery terminal",a terminal is connected to a bulb.,1,3.139
+a damaged bulb creates a gap,because a bulb creates electricity.,3,3.278
+a damaged bulb creates a gap,a damaged bulb creates a gap in the path.,4,3.729
+bulbs a and c are still contained in closed paths with the battery,the battery is contained on a closed path with bulb a and b,3,3.116
+the bulb is damaged,the terminals are connected to the opposite side of the battery,2,2.869
+if they are in the same path the burned out bulb affects the other bulb.,a damaged bulb will affect another bulb when it breaks the closed path with the battery.,2,3.476
+terminals 1 and 2 are connected,terminal is connected to the negative battery,3,2.393
+terminal 6 and the positive terminal are connected,the negative battery terminal is not reaching terminal 6,2,3.711
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,the difference in electrical states between terminals will show where there is a gap in the curcuit.,4,3.297
+the battery is contained in a path in which there is no bulb,the bulb is not in the closed path,4,2.415
+terminal 6 and the positive terminal are connected,the positive battery terminal is not separated by a gap from terminal 6.,4,3.385
+a battery uses a chemical reaction to maintain different electrical states at the terminals,because of the chemical in the battery,2,2.481
+terminals 1 and 4 are connected,no charge,3,2.041
+terminal 1 and the positive terminal are separated by the gap,i do not understand,0,0.179
+a and c are in different paths with the battery,"bulbs a, b, and c are not contained in the same closed path.",4,3.874
+terminal 1 and the positive terminal are separated by the gap,the positve battery terminal is separated by a gap at terminal 1,3,3.106
+there is a closed path containing both the bulb and a battery,battery must work. and connected to correct terminals on light bulb,2,2.383
+"terminals 1, 2 and 3 are connected to the negative battery terminal",because there is a gap due to a damaged bulb.,2,2.751
+circuit 4 has no closed paths,the batteries terminals are not connected,1,3.653
+a and c are in different paths with the battery,bulbs are in different closed paths,4,3.587
+terminals 1 and 2 are connected,there is not difference in eletcrical states,2,2.493
+a and c are in different paths with the battery,"bulb a, bulb b and bulb c are contained in differnt paths.",4,3.518
+"terminals 4, 5 and 6 are not connected to the negative battery terminal",the other terminals are connected to the positive terminal.,2,3.707
+a and c are in different paths with the battery,because bulbs a and c are not contained in the same closed paths,4,3.757
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,it allows you to see which terminal is different than the rest,3,2.666
+the bulb is damaged,the terminals are connected to each other,3,3.622
+"terminals 1, 2 and 3 are connected to the negative battery terminal",because voltage is the difference between two terminals and those terminals were not connected in a closed path,3,2.949
+terminal 1 and the positive terminal are separated by the gap,there is no gap between terminal 1 and the positive terminal.,3,3.486
+circuit 4 has no closed paths,the battery is not contained in a closed path. there is a bulb.,4,3.465
+"if bulb a burns out, b and c are no longer in a closed path with the battery",seperate paths connected to the battery,3,2.908
+terminal 1 and the positive terminal are separated by the gap,terminal 1 is connected to the negative terminal,4,3.219
+bulbs a and c are still in closed paths with the battery,bulb b is on a different path,4,3.133
+bulb c was no longer in a closed path with the battery,gap in the path,2,2.705
+terminal 4 and the positive terminal are connected,because terminal 4 is connected to the negative terminal,3,3.571
+bulbs a and c are still in closed paths with the battery,because bulb a is still in a closed path with the battery. bulb c is still in a closed path with the battery.,4,3.798
+"terminals 4, 5 and 6 are not connected to the negative battery terminal",the terminal is connected to a positive battery terminal,4,3.111
+the open switch creates a gap,there is no closed path,4,3.389
+bulb a is still contained in a closed path with the battery.,the batter is contained in switch y,3,2.733
+the battery is damaged,"the battery isn""t working and is dead.",2,3.066
+if a bulb and a switch are in the same path the switch affects the bulb,a closed path with a battery enables the bulb to be on.,1,2.233
+a and c are in the same closed path,"if one bulb is removed, the others stop working",2,2.828
+the battery in 2 is not in a closed path,because the bulb is not in the batterys path,3,2.938
+terminals 1 and 2 are connected,terminal 1 and terminal 2 possess no difference,2,2.077
+"if c burns out, then a and b are still in a closed path with the battery.",bulbs a and b will still be contained in closed paths with the battery.,4,3.829
+b and c are in the same path with the battery,they are contained in the same path with the battery and are affected by one anotehr,4,2.661
+bulbs a and c are still in closed paths with the battery,bulb b is in a independent path,4,2.834
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",it is not in the same path.,2,2.91
+bulb c was no longer in a closed path with the battery,the battery is contained by an open pathway,4,3.485
+"terminals 1, 2 and 3 are connected to the negative battery terminal","4,5,6",3,2.668
+bulb b creates a gap,the path will not be closed.,4,3.575
+terminals 1 and 6 are separated by the gap,there is a gap seperating terminal 1 from terminal 6,4,3.709
+terminals 1 and 6 are separated by the gap,connected to positive terminal,2,2.244
+a and c are in the same closed path,they are all contained in the same closed path with a battery,4,3.23
+"if bulb a burns out, b and c are no longer in a closed path with the battery",there is a gap in the path,2,2.576
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",switch y is not in the same path as bulb a.,4,3.072
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",there is another path,2,2.493
+the bulb is damaged,there is no connection between the bulb terminal and the battery terminal.,3,3.23
+bulbs a and c are still contained in closed paths with the battery,they were still contained in a closed path with the battery,4,3.791
+a and c are in different paths with the battery,bulb is contained in a path that does not contain bulb c,2,3.257
+a and c are in different paths with the battery,they are on different closed paths,4,3.919
+the bulb is damaged,the terminals are no longer separated by a gap,3,3.3
+a damaged bulb creates a gap,because there is a gap,4,3.574
+the bulb is damaged,the the bulb terminal disconnected from the battery terminal,2,3.234
+bulb b creates a gap,there is no path through bulb b.,3,2.97
+terminal 5 and the positive terminal are connected,terminal 5 is connected to teh positive battery terminal,4,3.882
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",because it is not in the same path.,2,2.787
+terminal 1 and the positive terminal are separated by the gap,we switched the terminals around.,3,2.51
+the terminals are not connected,it is connected to the positive terminal,3,3.131
+a battery uses a chemical reaction to maintain different electrical states at the terminals,because the gap will not effect the voltage.,2,2.572
+voltage is the difference in electrical states between two terminals,the difference in electrical states,2,2.528
+voltage is the difference in electrical states between two terminals,voltage is the difference in electrical states between two terminals of a circuit,4,2.898
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",because it is still in line with the battery,2,3.257
+bulbs a and c are still in closed paths with the battery,they are not on teh same path,2,3.356
+"if c burns out, then a and b are still in a closed path with the battery.",bulb a will burn out with bulb c,3,3.075
+bulb b creates a gap,"if bulb b is damaged, there will be a gap.",4,3.799
+the terminals are not connected,it tells you that it is connected to a negative battery terminal.,3,2.914
+terminals 1 and 2 are connected,contained in the same circuit not connected to the opposite terminal,3,2.717
+the bulb is damaged,the bulb terminal is connected to a positive or negative battery terminal.,3,2.922
+a and c are in the same closed path,removing bulb a will affect bulb c,2,2.577
+the open switch creates a gap,because the electricity will not flow through the wires if the circuit path is incomplete.,4,3.394
+bulb b and bulb c were still contained in the same closed path with the battery.,no gaps,2,2.784
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery","bulb a is on a closed path with switches x and z, so as long as those are closed the bulb can light up",4,2.648
+the open switch creates a gap,because it decides whether the bulb will be lit or not,3,2.631
+a battery uses a chemical reaction to maintain different electrical states at the terminals,there is a difference in electrical states between two terminals.,2,2.144
+b and c are in the same path with the battery,bulb b and bulb c are contained in the same path with the battery,4,3.746
+bulb b and bulb c were still contained in the same closed path with the battery.,because bulb b and c were contained in a closed path with the battery.,4,3.836
+the battery is contained in a path in which there is no bulb,the battery is in a closed path but connects with nothing else,4,3.536
+bulb b creates a gap,"i""m not sure.",0,1.429
+the terminals are not connected,a terminal is connected to the negative battery terminal,3,3.102
+terminal 3 and the positive terminal are separated by the gap,"sorry but thats all i got and if thats wrong, then i dont know the answer",0,0.55
+a damaged bulb creates a gap,a bulb creates a closed path and if the bulb is damaged so is the path,3,3.396
+bulb c was no longer in a closed path with the battery,bulb c is not connected to the battery.,4,3.121
+terminal 1 and the positive terminal are separated by the gap,because the positive terminal is separated with a gap from terminal 1,4,3.33
+terminal 1 and the positive terminal are separated by the gap,because it is not connected to the positive battery,2,2.569
+bulb a is still contained in a closed path with the battery.,because it still caught the current from both terminals,3,2.766
+voltage is the difference in electrical states between two terminals,a measurement of electricity,2,2.665
+terminals 1 and 4 are connected,terminal 1 is connected to terminl 4.,4,3.003
+bulb c was no longer in a closed path with the battery,there was a gap in the gap betweeen the battery and bulb c,3,3.169
+bulbs a and c are still contained in closed paths with the battery,bulb a and bulb c were still in a closed path with the battery,4,3.947
+the open switch creates a gap,because it causes a short circuit.,3,3.257
+a damaged bulb creates a gap,gap,2,3.134
+the battery is damaged,i think that it means that the battery is damaged,4,3.028
+if a bulb and a switch are in the same path the switch affects the bulb,the path has to be closed for the bulb to light up,1,2.267
+"if c burns out, then a and b are still in a closed path with the battery.",they are in different paths,2,3.303
+bulb c was no longer in a closed path with the battery,bulb c was no longer connected to the negative battery terminal.,2,3.136
+bulb c was no longer in a closed path with the battery,it is no longer contained within a closed path,4,3.13
+bulb b creates a gap,the damaged bulb creates a gap in the circuit.,4,3.837
+the battery is contained in a path in which there is no bulb,"the battery is in a closed path, but does not contain a bulb",4,3.171
+terminal 1 and the positive terminal are separated by the gap,i do not know.,0,0.318
+a damaged bulb creates a gap,"it creates a gap, so no electricity from the battery can flow to the other bulbs.",3,2.875
+if a bulb and a switch are in the same path the switch affects the bulb,if the path is not closed then a bulb will not be on,2,2.815
+the battery is contained in a path in which there is no bulb,because the battery is in a closed path with no other component.,4,3.106
+"terminals 4, 5 and 6 are not connected to the negative battery terminal","the electricity can""t pass through",1,2.673
+the bulb is damaged,the terminals are disconnected.,4,3.464
+"if bulb a burns out, b and c are no longer in a closed path with the battery",the damaged bulb a creates a gap in the path.,2,3.568
+the bulb is damaged,there was a positive battery terminal.,3,3.383
+if c burns out then a and b are still in a closed path with the battery,bulb a and b are still contained in a closed path with the battery.,4,3.895
+terminal 6 and the positive terminal are connected,the positive battery terminal is not connected,3,3.252
+terminal 1 and the positive terminal are separated by the gap,i do not know,0,0.016
+bulb c was no longer in a closed path with the battery,bulb c was not in a closed path with a battery.,4,3.761
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,you can find where there is a gap,2,2.912
+voltage is the difference in electrical states between two terminals,distance between terminals,3,2.824
+bulb b and bulb c were still contained in the same closed path with the battery.,b and c were still contained in a closed circuit with the battery,3,3.458
+terminal 3 and the positive terminal are separated by the gap,because the positive terminal is separated by a gap from terminal 3,4,3.77
+terminal 4 and the positive terminal are connected,tell me the answer,0,0.309
+terminal 1 and the positive terminal are separated by the gap,the positive terminal is not connected to terminal 1,4,3.555
+the terminals are connected,that the bulb terminal and battery terminal are on the same side of a disconnected circut,2,2.619
+bulbs b and c are still in closed paths with the battery,bulb b and c are still contained in closed paths with the battery,4,3.937
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.",bulb a is contained in a path with the battery and bulbs b and c are contained in a separate path with the battery.,4,2.885
+terminal 5 and the positive terminal are connected,there is no gap between the positive battery terminal and terminal 4,1,3.768
+there is a closed path containing both the bulb and a battery,a batter is required,2,2.535
+a battery uses a chemical reaction to maintain different electrical states at the terminals,tell answer,0,0.52
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,i have no idea,0,0.433
+terminal 6 and the positive terminal are connected,terminal 6 is connected to a positive battery terminal,4,3.74
+bulb b creates a gap,a and b are off,3,2.709
+the battery is contained in a path in which there is no bulb,the component is not enclosed within the path and the battery is,2,3.249
+voltage is the difference in electrical states between two terminals,the measurment of power to a source of energy,3,2.679
+terminal 1 and the positive terminal are separated by the gap,it was connected to a positive battery terminal,3,3.396
+the battery in 2 is not in a closed path,open path,2,2.861
+there is a closed path containing both the bulb and a battery,a closed path,2,2.33
+"terminals 1, 2 and 3 are connected to the negative battery terminal",the terminals are connected to each other,2,2.921
+"if c burns out, then a and b are still in a closed path with the battery.",a and b are still contained in a closed path with the battery.,4,3.667
+the battery in 2 is not in a closed path,both terminals of the battery is not connected.,2,2.919
+"if bulb a burns out, b and c are no longer in a closed path with the battery",seperates the voltage,3,2.376
+bulbs a and c are still in closed paths with the battery,bulb b is not in the same path with bulbs a and c.,4,3.863
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",its contained in a closed path,4,2.631
+bulb b and bulb c were still contained in the same closed path with the battery.,they were in the same path as switch y.,4,3.096
+the terminals are connected,the bulb terminal and the battery terminal have the same electrical state.,4,3.116
+bulbs a and c are still contained in closed paths with the battery,there is still a complete path to bulb a and bulb c,3,3.644
+the terminals are connected,the bulb is only connected to that side of the battery terminal.,3,2.977
+voltage is the difference in electrical states between two terminals,a measurement of current flowing through a source.,3,2.53
+if c burns out then a and b are still in a closed path with the battery,"if bulb c is damaged, then bulb a and b are contained in a closed path with the battery",4,3.813
+bulb b creates a gap,because there is a gap in the bulb,3,2.97
+"terminals 1, 2 and 3 are connected to the negative battery terminal",there is no difference in electrical states.,1,1.801
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",switch z is contained in the same terminal as the battery,3,2.893
+terminal 2 and the positive terminal are separated by the gap,because the positive battery terminal is seperated by a gap from terminal 2,4,3.76
+terminal 1 and the positive terminal are separated by the gap,because there was no gap in the positive battery terminal and terminal 1.,3,3.469
+voltage is the difference in electrical states between two terminals,the difference in the electrical states of the positive and negative terminals of a battery,4,2.785
+the bulb is damaged,that is where the bulb is damaged.,4,3.278
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,i dont know.,0,0.741
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,each terminal has an electrical state and when there is a gap the electrical state changes which shows which bulb is damaged.,4,3.481
+the battery is contained in a path in which there is no bulb,2,3,2.657
+terminals 1 and 2 are connected,there is a gap in the path.,3,2.316
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,measuring voltage allows you to find gaps and connections by checking the electrical states between two terminals.,2,3.269
+a and c are in the same closed path,tell answer,0,0.158
+if they are in the same path the burned out bulb affects the other bulb.,if that bulb is in the same closed path as another bulb,4,3.533
+bulb a was still contained in the same closed path with the battery.,bulb a is in a closed path with the battery.,4,3.884
+terminal 3 and the positive terminal are separated by the gap,i dont know,0,0.002
+"terminals 1, 2 and 3 are connected to the negative battery terminal",they are not connected to postive terminal so no electrical difference,4,2.985
+voltage is the difference in electrical states between two terminals,difference between two electrical currents,3,2.852
+bulb c was no longer in a closed path with the battery,and it is contained in a closed path with the battery,3,3.649
+a battery uses a chemical reaction to maintain different electrical states at the terminals,"the battery uses a chemical reaction to maintain the voltage,",3,2.874
+terminal 1 and the positive terminal are separated by the gap,because there was a gap,2,2.335
+terminal 1 and the positive terminal are separated by the gap,because terminal 1 is connected to the positive terminal with no gaps,3,3.199
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,the gap in the connection causes different electrical states.,4,3.344
+bulb b and bulb c were still contained in the same closed path with the battery.,bulbs b and c are still contained in a closed path with the battery,4,3.941
+bulbs a and c are still in closed paths with the battery,bulb a and b will still be contained in a closed path with the battery,3,3.944
+a damaged bulb creates a gap,it creates a gap in the circuit.,4,3.89
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.",next question please,0,0.775
+bulb a is still contained in a closed path with the battery.,the circuit was complete,3,2.781
+bulb b and bulb c were still contained in the same closed path with the battery.,bulb c was still contained in a closed path with the battery. bulb b was still contained in a closed path with the battery.,4,3.881
+the battery in 2 is not in a closed path,because there is a light bulb,3,2.522
+there is a closed path containing both the bulb and a battery,each circuit must have a connection.,3,2.873
+bulbs a and c are still in closed paths with the battery,all of the bulbs are in different paths,4,3.217
+"terminals 1, 2 and 3 are connected to the negative battery terminal",i do not know.,0,0.445
+if a bulb and a switch are in the same path the switch affects the bulb,when switch is open it creates a gap in the path.,2,3.168
+the battery is damaged,the battery wont work,4,3.182
+a battery uses a chemical reaction to maintain different electrical states at the terminals,because there is still a difference in electrical states. one side could have a positive connection and the other could have a negative connection,3,2.632
+the open switch creates a gap,it breaks the closed path.,2,3.638
+bulbs b and c are still in closed paths with the battery,bulbs b and c are not in a closed path with bulb a,3,3.512
+terminals 1 and 2 are connected,there was a gap between the positive battery terminal and terminal 2.,3,2.462
+bulbs a and b are still in closed paths with the battery,bulb a and b are still contained within closed paths,4,3.826
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,a bulb causes an electrical state.,3,3.055
+terminal 1 and the positive terminal are separated by the gap,it was separted by a gap.,2,2.923
+"terminals 1, 2 and 3 are connected to the negative battery terminal",since a a gap does not affect the voltage of a battery,1,2.326
+the bulb is damaged,the terminal is damaged,3,3.594
+the battery in 2 is not in a closed path,the bulb is in the path of the circuit,3,2.752
+bulb a is still contained in a closed path with the battery.,because it still was on a closed path,2,2.639
+terminal 1 and the positive terminal are separated by the gap,all components are in a closed circuit.,3,3.352
+terminal 3 and the positive terminal are separated by the gap,gap between 3 and positive battery,4,2.706
+the open switch creates a gap,it opens the closed path of the battery,4,2.776
+b and c are in the same path with the battery,because bulbs b and c are contained in the same closed path,4,3.594
+terminal 6 and the positive terminal are connected,terminal 6 is connected to the positive battery terminal.,4,3.921
+bulb b and bulb c were still contained in the same closed path with the battery.,bulb b and c were contained in a closed path with the battery,4,3.943
+the open switch creates a gap,it creates an open path,4,3.46
+a battery uses a chemical reaction to maintain different electrical states at the terminals,it always has the same voltage due to a chemical reaction inside of it,2,2.886
+terminal 3 and the positive terminal are separated by the gap,because there are not gaps in the system from the - to the bulb then from there to terminal 3 and the + of the battery.,3,2.505
+if a bulb and a switch are in the same path the switch affects the bulb,"if the switch it is in the closed path, then it affects the bulb",2,2.621
+the battery is damaged,"that the batter isn""t working.",4,2.499
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",switch z is contained in a closed path to the battery,2,2.893
+terminals 1 and 4 are connected,because they were connected within the same terminal.,4,3.673
+terminal 3 and the positive terminal are separated by the gap,the positive battery terminal is separated by a gap from terminal 2.,1,3.546
+terminals 1 and 2 are connected,the voltage was 0 because they were on the same negative battery terminal.,2,2.74
+a and c are in the same closed path,removing one bulb shuts off the other,2,3.099
+terminals 1 and 4 are connected,terminal 1 is connected to terminal 4.,4,3.46
+bulb a is still contained in a closed path with the battery.,bulb a is contained in a closed path and not affected by switch y.,4,2.862
+voltage is the difference in electrical states between two terminals,the distance between terminals,3,2.659
+the open switch creates a gap,it breaks the closed pathway that the bulbs require to work.,4,2.667
+terminals 1 and 6 are separated by the gap,1s connected to 6,3,3.122
+a and c are in different paths with the battery,"bulbs a, b and c are on different paths",4,3.479
+when the switch and the bulb are contained in the same path,path that the bulb and switch are in connects to battery,4,2.496
+when the switch and the bulb are contained in the same path,if it is in the closed path with the battery,2,2.666
+terminal 1 and the positive terminal are separated by the gap,gap,2,2.551
+"terminals 4, 5 and 6 are not connected to the negative battery terminal",because they are connected to the positive end,2,2.573
+terminal 4 and the positive terminal are connected,the positve battery terminal is connected to 4.,4,3.211
+bulb c was no longer in a closed path with the battery,switch z effects bulb c,2,2.931
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.","bulbs b and c are contained in the same path, so the status of these bulbs will affect each other and have no affect on bulb a. bulb a is on its own path, so it will not have an affect on bulbs b and c.",4,2.769
+terminal 1 and the positive terminal are separated by the gap,terminal 1 is not connected to the positive battery terminal.,4,3.298
+a battery uses a chemical reaction to maintain different electrical states at the terminals,the battery always has voltage,2,2.489
+"terminals 1, 2 and 3 are connected to the negative battery terminal",there is a gap between the terminals,2,2.748
+if a bulb and a switch are in the same path the switch affects the bulb,"if the path is connected to an open switch, the bulb will be off.",2,2.44
+bulb b and bulb c were still contained in the same closed path with the battery.,switch x is not in the same path as bulbs b and c.,4,3.376
+terminal 4 and the positive terminal are connected,the positive battery terminal is not seperated by a gap from terminal 4.,4,3.623
+a damaged bulb creates a gap,there is a gap in the closed path,3,3.663
+terminal 1 and the positive terminal are separated by the gap,because the meter read the difference in volts between the positive battery terminal and terminal 1 which has a negative charge,2,2.81
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",bulb a is in a closed path with a battery.,4,3.517
+the battery is damaged,the battery is damaged,4,3.654
+bulb a was still contained in the same closed path with the battery.,because that created a closed circuit,3,2.927
+terminal 3 and the positive terminal are separated by the gap,there is a gap between terminal 3 and the positive terminal,4,3.457
+bulb c was no longer in a closed path with the battery,because the path was not closed,4,3.134
+a damaged bulb creates a gap,a bulb creates light,3,2.841
+a and c are in different paths with the battery,they are contained in different closed paths,4,3.897
+the bulb is damaged,it is not the bulb that is damaged,3,3.518
+terminal 1 and the positive terminal are separated by the gap,the positive terminal has 1.5 v,3,1.866
+bulbs a and b are still in closed paths with the battery,because they are still connected to the battery,2,3.285
+terminal 4 and the positive terminal are connected,the positive battery terminal has no gaps from terminal 4,4,3.665
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",there is a closed path that contains bulb a and does not contain switch y,4,3.07
+a damaged bulb creates a gap,because a damaged bulb has a gap.,4,3.623
+bulbs a and b are still in closed paths with the battery,because bulb a and b are in a closed path,4,3.407
+a battery uses a chemical reaction to maintain different electrical states at the terminals,the voltage does not change.,1,2.103
+bulb a is still contained in a closed path with the battery.,because it was still connected to the battery terminal.,2,3.202
+bulb a was still contained in the same closed path with the battery.,there was a closed path between the battery and bulb a.,4,2.96
+the battery in 2 is not in a closed path,because the battery is not connected to itself,4,3.153
+bulbs a and c are still contained in closed paths with the battery,different path,2,2.465
+a and c are in different paths with the battery,"a, b, and c are not one one closed path",4,3.085
+bulb c was no longer in a closed path with the battery,bulb c is not contained in a close path with the battery,4,3.714
+there is a closed path containing both the bulb and a battery,a battery and bulb in a closed circuit,3,2.827
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",because it can travel by bulb c,2,2.868
+there is a closed path containing both the bulb and a battery,the bulb must be in a closed circuit with the battery.,3,3.137
+bulb c was no longer in a closed path with the battery,bulb c is contained in an open path and not connected to the battery,4,3.481
+bulb c was no longer in a closed path with the battery,because it broke the circuit,3,2.958
+the terminals are connected,there is no voltage.,3,3.035
+the battery is contained in a path in which there is no bulb,bulb,2,2.947
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,the electrical state will be non-zero,2,2.685
+bulbs a and b are still in closed paths with the battery,bulbs b and a will still be on closed paths with the battery,4,3.908
+terminal 6 and the positive terminal are connected,the negative battery terminal is serperated by a gap from terminal 6,4,3.894
+the open switch creates a gap,"because the electricity can""t pass through",1,2.87
+bulb a is still contained in a closed path with the battery.,"bulb a""s path didnt go through switch y",4,1.708
+a and c are in different paths with the battery,they are in the same closed path,3,3.86
+bulbs a and c are still contained in closed paths with the battery,because they were still in a closed path with the battery,4,3.8
+bulbs b and c are still in closed paths with the battery,when one bulb goes out the rest go out.,3,2.852
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.",when bulb a is burned out b and c will stay on because they are still contained in the same path as the battery. when bulb b is burned out then c will be affect and a will not because b and c are contained within the same path as the battery. when bulb c is burned out then b will be off and a will be on becasue a is still contained within the same path as the battery,4,2.868
+"if c burns out, then a and b are still in a closed path with the battery.",they can follow a seperate closed path,4,3.404
+bulb c was no longer in a closed path with the battery,the open switch was in the path.,2,3.442
+"if bulb a burns out, b and c are no longer in a closed path with the battery",bulbs b and c will not be in a closed path with the battery.,4,3.809
+the battery in 2 is not in a closed path,"there isn""t a closed path of the battery",4,2.782
+terminals 1 and 4 are connected,there is a gap in the path,2,2.498
+bulbs b and c are still in closed paths with the battery,because it creates a gap bewtween the battery and the other paths,3,3.58
+bulbs a and c are still contained in closed paths with the battery,bulb b did not create a gap in the path for bulb b or c,2,3.122
+terminal 1 and the positive terminal are separated by the gap,the voltage is the difference between the electrical state of the terminals.,2,2.709
+a battery uses a chemical reaction to maintain different electrical states at the terminals,because the terminals are not connected,3,3.04
+if c burns out then a and b are still in a closed path with the battery,bulbs a and b stay on because they are still contained within a closed path with a battery,4,3.841
+bulbs a and c are still contained in closed paths with the battery,they still have connection to the battery,2,3.237
+the battery is contained in a path in which there is no bulb,the bulb is not contained within the path,1,2.479
+"if c burns out, then a and b are still in a closed path with the battery.",it is on a separate path.,4,3.157
+bulbs a and c are still in closed paths with the battery,seperate paths,2,2.62
+the bulb is damaged,"there is a gap at that terminal, and the terminals are not connected at that point.",4,3.209
+terminal 5 and the positive terminal are connected,the positive battery terminal is connected to terminal 5.,4,3.403
+bulbs a and c are still in closed paths with the battery,bulb b is not contained in the same path as bulbs a and c,4,3.294
+the open switch creates a gap,because the path between the battery and the light bulb is not closed,4,2.888
+circuit 4 has no closed paths,the path does not close,4,3.111
+the battery is contained in a path in which there is no bulb,it is not a short circuit.,3,2.885
+terminal 1 and the positive terminal are separated by the gap,the terminals were connected to the positive terminals of the battery,3,2.556
+bulb b creates a gap,if bulb b is damaged there will be a gap in the path at that bulb,4,3.398
+circuit 4 has no closed paths,the bulb is not connected to the positive connection.,2,3.346
+if a bulb and a switch are in the same path the switch affects the bulb,"i don""t know what else to tell you.",0,0.851
+if a bulb and a switch are in the same path the switch affects the bulb,the bulb is contained in a path with an open switch,4,2.91
+"terminals 1, 2 and 3 are connected to the negative battery terminal",the terminals are connedted to the negative terminal of the battery.,4,3.248
+if they are in the same path the burned out bulb affects the other bulb.,when they are all on the same closed path,4,3.655
+"if bulb a burns out, b and c are no longer in a closed path with the battery",still connected to the battery,3,2.853
+if a bulb and a switch are in the same path the switch affects the bulb,the switch determines whether the path is open or closed.,1,2.501
+terminal 2 and the positive terminal are separated by the gap,separated by a gap,2,2.72
+if a bulb and a switch are in the same path the switch affects the bulb,it depends on whether its an open or closed path,3,2.525
+"if c burns out, then a and b are still in a closed path with the battery.",i like you?,0,0.417
+if c burns out then a and b are still in a closed path with the battery,they have a seperate closed path with the battery,4,3.708
+a battery uses a chemical reaction to maintain different electrical states at the terminals,the battery keeps a chemical reaction reaction.,2,2.504
+there is a closed path containing both the bulb and a battery,"the bulb must be in a complete circuit with a battery, with one bulb terminal connected to the negative battery terminal, and the other bulb terminal connected to the positive battery terminal.",4,3.491
+bulbs a and c are still in closed paths with the battery,bulb a and bulb c would still be in a closed path with the battery,4,3.935
+a battery uses a chemical reaction to maintain different electrical states at the terminals,"the terminal""s electrical state is not effected by the incomplete circuit.",3,2.587
+"terminals 1, 2 and 3 are connected to the negative battery terminal",because bulbs are connected to the negative terminal of the battery,4,2.966
+terminal 2 and the positive terminal are separated by the gap,terminal 2 is not connected to the positive battery terminal,4,3.704
+a and c are in different paths with the battery,"bulb a, b, and c are contained in different closed paths.",4,3.825
+the bulb is damaged,i do not know.,0,0.921
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,"becuase you can test the light bulbs until you find where there is a gap between 0 volts and 1.5 volts, just like in the exercise i just did",3,0.875
+voltage is the difference in electrical states between two terminals,energy between terminals,3,2.926
+a damaged bulb creates a gap,the path is closed,3,3.375
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",you can close switch z and it will have light,2,2.64
+terminal 4 and the positive terminal are connected,the positive battery is connected to the terminal 4.,2,3.182
+terminals 1 and 6 are separated by the gap,the terminals are not connected,4,3.477
+the terminals are connected,the bulb terminal is connected to the battery terminal.,4,3.514
+bulb b creates a gap,there will be a gap,4,3.535
+when the switch and the bulb are contained in the same path,when the switch is opened,2,2.872
+bulb a was still contained in the same closed path with the battery.,it was is a closed circuit with the battery,3,2.948
+if a bulb and a switch are in the same path the switch affects the bulb,"if the path is directly connected to the battery, then the switch affects a bulb.",2,2.494
+if a bulb and a switch are in the same path the switch affects the bulb,"if the switch is included in the bulb""s closed path, then the switch being open will affect the bulb",4,2.66
+a and c are in the same closed path,if bulb a burns out if affects bulbs b and c.,1,3.117
+bulb b and bulb c were still contained in the same closed path with the battery.,switch x is not in the same path of bulbs b and c.,4,3.386
+if c burns out then a and b are still in a closed path with the battery,because a and b still connected to battery,2,3.208
+the bulb is damaged,the gap inbetween the terminals tells whether the bulb is connected to a positive or negative terminal,3,3.015
+terminals 1 and 2 are connected,terminals are separated by a gay between the positive and negative terminals of the battery,3,2.57
+voltage is the difference in electrical states between two terminals,the measurement of the electrical current that occurs when the chemicals are mixed together.,3,2.719
+the terminals are connected,there is no electrical state difference.,4,2.222
+terminal 6 and the positive terminal are connected,the positive battery terminal is connected to terminal 6,4,3.833
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.",b and c are on the same path so each one affects the other. a is own its own path so it will not affect the others,4,2.71
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.",bulb a will not affect bulbs b and c because b and c are still contained within the same path as the battery.,2,2.802
+terminal 4 and the positive terminal are connected,the positive terminal is connected to terminal 4,4,3.631
+terminal 6 and the positive terminal are connected,"thats what i said, for a computer your a dumb***",0,1.565
+a battery uses a chemical reaction to maintain different electrical states at the terminals,because it will still be connected to one of the terminals,3,2.598
+terminal 1 and the positive terminal are separated by the gap,positive charge,3,2.564
+if they are in the same path the burned out bulb affects the other bulb.,if both bulbs are contained within a closed path,2,2.837
+if a bulb and a switch are in the same path the switch affects the bulb,if they are closed or open,2,2.596
+a and c are in different paths with the battery,the bulbs are conained in different paths with the battery,4,3.633
+"terminals 1, 2 and 3 are connected to the negative battery terminal",because they all are reading that they have 0.00 voltage.,3,2.644
+when the switch and the bulb are contained in the same path,when there is a open path,3,2.812
+a battery uses a chemical reaction to maintain different electrical states at the terminals,it is the difference of the electrical states caused by a chemical reaction between the two terminals of the battery.,2,2.25
+bulb b creates a gap,the path between the bulbs and the battery is open,4,2.944
+"if bulb a burns out, b and c are no longer in a closed path with the battery",they are conected to each other,2,3.137
+terminal 6 and the positive terminal are connected,the terminal is not connected to negative end of battery,4,2.707
+"there is still a closed path containing switch z, switch x, bulbs a and c and the battery",bulb a and c are contained in a closed path with the battery,4,3.864
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,where the voltage jumps from 0 volts to some number of volts represents the burned out bulb because it identifies where the circuit is only connnected to the negative battery terminal or the positive battery terminal.,2,3.161
+there is a closed path containing both the bulb and a battery,a full circut that conects at both terminals of the battery and at both terminals of the lightbulb,3,2.403
+terminal 4 and the positive terminal are connected,?,0,1.329
+"terminals 1, 2 and 3 are connected to the negative battery terminal","terminals 1,2,and 3 are connected to the negative terminal of the battery",4,3.039
+bulbs a and c are still contained in closed paths with the battery,because bulbs a and c are still contained in a closed path to the battery.,4,3.874
+circuit 4 has no closed paths,the battery is not cantained in a closed path,4,3.689
+"bulb a is in a path which does not contain b and c, so bulbs b and c don't affect it. bulbs b and c are in the same path. they affect each other, but bulb a doesn't affect them.","sigh, some things never change. this da 21st centuary, u woudl think they could have programmed you smarter",0,1.486
+terminal 1 and the positive terminal are separated by the gap,the terminals are not connected to each other.,4,3.012
+a battery uses a chemical reaction to maintain different electrical states at the terminals,the battery has its own chemical reaction,2,2.879
+a and c are in the same closed path,bulbs a and c are located on the same path,4,3.498
+bulbs a and b are still in closed paths with the battery,it has its own path that is connected to the battery,2,2.746
+terminals 1 and 4 are connected,there is a gap in the circuit,2,2.776
+bulbs a and c are still contained in closed paths with the battery,bulb a and bulb c are not on the same path as bulb b,4,3.514
+terminals 1 and 6 are separated by the gap,difference in electrial state,2,2.221
+the battery is damaged,dont do this,4,2.432
+voltage is the difference in electrical states between two terminals,"the difference between two different terminal""s electrical states.",4,2.18
+the open switch creates a gap,it breaks the closed circuit,3,3.217
+bulb b creates a gap,"there will be a gap at bulb b, thus affecting the rest of the circuit",4,3.167
+"if bulb a burns out, b and c are no longer in a closed path with the battery",there is a gap caused by bulb a,2,3.161
+bulbs b and c are still in closed paths with the battery,bulbs b and c will still be on closed paths with the battery,4,3.877
+bulb a is still contained in a closed path with the battery.,battery connected to terminal a,3,2.886
+the open switch creates a gap,because it opens the circuit,3,3.094
+the battery is contained in a path in which there is no bulb,"in circuit 5, the battery is in a closed path.",2,2.922
+bulb b and bulb c were still contained in the same closed path with the battery.,there was a closed path with the battery and bulbs b and c,4,3.135
+the battery is contained in a path in which there is no bulb,the batter is in a closed path without any other components.,4,3.288
+a battery uses a chemical reaction to maintain different electrical states at the terminals,there is no short circuit to the battery.,3,2.101
+a and c are in the same closed path,kkkdfdadkjlf,0,0.816
+the bulb is damaged,the difference is damged,3,3.288
+terminal 1 and the positive terminal are separated by the gap,because terminal is connected to the negative terminal,4,3.277
+the bulb is damaged,it means that the bulb terminal is not connected to the battery terminal.,4,3.005
+bulb c was no longer in a closed path with the battery,bulb c is not contained in a closed pathway.,4,3.638
+the terminals are not connected,the connection is positive,3,2.733
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,"voltage is the difference in electrical states between two terminals, so a gap or a connection in a circuit can be determined by the voltage.",4,2.841
+"if bulb a burns out, b and c are no longer in a closed path with the battery",damaged bulb a creates a gap in the path,4,3.184
+b and c are in the same path with the battery,they are wired in the same path with the battery,4,3.64
+bulbs b and c are still in closed paths with the battery,b and c are parallel to a,4,2.865
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,"measuring voltages helps to locate burned out bulbs because if there is a gap or something isn""t connected, it will show up as a numerical electrical state.",3,3.212
+the battery is damaged,the battery is ruined,4,3.528
+voltage is the difference in electrical states between two terminals,a measure of the strength of electricity,3,2.587
+b and c are in the same path with the battery,bulb b and bulb c are contained in different path with the battery,3,3.614
+a and c are in the same closed path,they are all connected in the same path to the battery,4,2.812
+the terminals are connected,there is no difference in electrical states,3,2.273
+a battery uses a chemical reaction to maintain different electrical states at the terminals,"well, it will have a voltage of zero, if that""s what you are asking.",3,2.071
+there is a closed path containing both the bulb and a battery,both terminals of the bulb need to have a power source,2,2.639
+if they are in the same path the burned out bulb affects the other bulb.,"if a damaged bulb is on the same closed path to the battery as another bulb, the other bulb will not turn on",4,2.724
+bulb a was still contained in the same closed path with the battery.,bulb a and switch x are contained in the same path and the switch affects bulb a.,2,2.912
+the terminals are connected,no electricity,3,2.502
+there is a closed path containing both the bulb and a battery,a closed component to the battery,3,2.368
+"if bulb a burns out, b and c are no longer in a closed path with the battery",creates a gap,2,2.385
+the terminals are connected,the have the same electrical states,4,2.707
+the terminals are connected,that the bulb terminal is only connected to one of the battery terminals,3,3.414
+bulb a was still contained in the same closed path with the battery.,there was closed paths between the battery,2,2.777
+the terminals are not connected,the terminal is connected to a positive battery terminal.,3,3.672
+voltage is the difference in electrical states between two terminals,a measurement of current and flowing the a source.,3,2.557
+if c burns out then a and b are still in a closed path with the battery,there is a closed path that contains the battery and bulb a and bulb b,4,3.61
+"terminals 1, 2 and 3 are connected to the negative battery terminal",because of the gap in bulb b,2,2.026
+a and c are in different paths with the battery,bulb a and bulb c are contained in different paths with the battery.,4,3.738
+the battery is damaged,short circuit.,4,3.223
+terminal 1 and the positive terminal are separated by the gap,"i don""t know, actually.",0,0.547
+the battery is damaged,a short circuit,4,3.282
+bulb a is still contained in a closed path with the battery.,the battery is conatained in a closed path with bulb a,4,3.634
+a and c are in the same closed path,they are all within the same path.,4,3.823
+bulb a was still contained in the same closed path with the battery.,switch y does not affect the closed circuit of bulb a,3,2.723
+terminals 1 and 4 are connected,1 is connected to terminal 2.,1,3.277
+the open switch creates a gap,because there is no closed path to the battery,2,2.575
+bulb a is still contained in a closed path with the battery.,because it had no gap between the terminals,2,2.738
+measuring voltage indicates the place where the electrical state changes due to a damaged bulb.,where there is a 0.0 volts. it finds the gap in the path.,3,3.161
