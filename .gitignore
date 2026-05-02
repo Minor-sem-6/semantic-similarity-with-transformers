@@ -2,6 +2,9 @@
 data/*
 Data/*
 
+#models
+saved_models/*
+
 # model weights
 *.pt
 *.pth
