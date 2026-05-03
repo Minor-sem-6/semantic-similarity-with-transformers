@@ -6,7 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-OUTPUT_DIR = "results/experiment3_finetune"
+OUTPUT_DIR = "results/experiment3"
 
 # ── Palette matching your experiment ──────────
 palette = {
@@ -83,6 +83,28 @@ def plot_experiment3():
     plt.title("Experiment 3: RMSE Heatmap")
     plt.tight_layout()
     plt.savefig(os.path.join(OUTPUT_DIR, "rmse_heatmap.png"))
+    plt.close()
+
+    # ── MAE Heatmap ──────────────────────────
+    heatmap_mae = df.pivot(index="dataset", columns="model", values="mae")
+
+    plt.figure(figsize=(6, 4))
+    sns.heatmap(heatmap_mae, annot=True, cmap="YlOrBr", fmt=".2f")
+
+    plt.title("Experiment 3: MAE Heatmap")
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, "mae_heatmap.png"))
+    plt.close()
+
+    # ── QWK Heatmap ──────────────────────────
+    heatmap_qwk = df.pivot(index="dataset", columns="model", values="qwk")
+
+    plt.figure(figsize=(6, 4))
+    sns.heatmap(heatmap_qwk, annot=True, cmap="YlGnBu", fmt=".2f")
+
+    plt.title("Experiment 3: QWK Heatmap")
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, "qwk_heatmap.png"))
     plt.close()
 
     print("✅ Experiment 3 plots generated!")

@@ -12,6 +12,7 @@ from src.embeddings.sbert_embedder import SBERTEmbedder
 from src.embeddings.pythia_embedder import PythiaEmbedder
 from src.embeddings.t5_embedder import T5Embedder
 
+
 def create_features(embedder, ref_texts, stu_texts):
 
     ref_emb = embedder.encode(ref_texts)
@@ -20,7 +21,6 @@ def create_features(embedder, ref_texts, stu_texts):
     features = []
 
     for r, s in zip(ref_emb, stu_emb):
-
         cos_sim = cosine_similarity([r], [s])[0][0]
         diff = np.abs(r - s)
         prod = r * s 
@@ -30,10 +30,12 @@ def create_features(embedder, ref_texts, stu_texts):
 
     return np.array(features)
 
+
 def compute_qwk(y_true, y_pred):
     y_pred_rounded = np.round(y_pred).astype(int)
     y_true = np.array(y_true).astype(int)
     return cohen_kappa_score(y_true, y_pred_rounded, weights="quadratic")
+
 
 def train_and_evaluate(X, y):
 
@@ -50,16 +52,15 @@ def train_and_evaluate(X, y):
     )
 
     model.fit(X_train, y_train)
-
     y_pred = model.predict(X_test)
 
-    # Metrics
     pearson_corr, _ = pearsonr(y_test, y_pred)
     rmse = np.sqrt(mean_squared_error(y_test, y_pred))
     mae = mean_absolute_error(y_test, y_pred)
     qwk = compute_qwk(y_test, y_pred)
 
     return y_test, y_pred, idx_test, pearson_corr, rmse, mae, qwk
+
 
 def run_experiment(dataset_path, embedder):
 
@@ -81,6 +82,7 @@ def run_experiment(dataset_path, embedder):
 
     return df, idx_test, y_pred, corr, rmse, mae, qwk
 
+
 if __name__ == "__main__":
 
     datasets = {
@@ -89,8 +91,10 @@ if __name__ == "__main__":
         "beetle": "Data/processed/beetle/beetle_processed.csv"
     }
 
-    output_dir = "results/experiment2"
-    os.makedirs(output_dir, exist_ok=True)
+    base_dir = "results/experiment2"
+    pred_dir = os.path.join(base_dir, "predictions")
+
+    os.makedirs(pred_dir, exist_ok=True)
 
     embedders = {
         "sbert": SBERTEmbedder(),
@@ -112,7 +116,13 @@ if __name__ == "__main__":
             df["predicted_score"] = np.nan
             df.loc[idx_test, "predicted_score"] = y_pred
 
-            df.to_csv(f"{output_dir}/{name}_{model_name}_classifier.csv", index=False)
+            # ✅ Save predictions inside /predictions
+            pred_path = os.path.join(
+                pred_dir, f"{name}_{model_name}_classifier.csv"
+            )
+            df.to_csv(pred_path, index=False)
+
+            # ✅ Summary row
             summary.append({
                 "dataset": name,
                 "model": f"{model_name}_classifier",
@@ -122,7 +132,8 @@ if __name__ == "__main__":
                 "qwk": qwk
             })
 
+    # ✅ Save metrics_summary OUTSIDE predictions
     summary_df = pd.DataFrame(summary)
-    summary_df.to_csv(f"{output_dir}/metrics_summary.csv", index=False)
+    summary_df.to_csv(os.path.join(base_dir, "metrics_summary.csv"), index=False)
 
     print("\n✅ Experiment 2 completed successfully!")
