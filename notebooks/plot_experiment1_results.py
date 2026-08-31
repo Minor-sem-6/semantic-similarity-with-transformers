@@ -25,7 +25,12 @@ sns.set(style="whitegrid")
 plt.figure(figsize=(8,5))
 sns.barplot(data=df, x="dataset", y="pearson",
             hue="model", hue_order=model_order, palette=palette)
+
 plt.title("Experiment 1: Pearson Comparison")
+
+# 👉 Set Y-axis max to 0.7
+plt.ylim(0, 0.7)
+
 plt.tight_layout()
 plt.savefig("results/experiment1/pearson_comparison.png")
 plt.close()

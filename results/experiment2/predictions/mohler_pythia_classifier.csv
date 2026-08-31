@@ -890,7 +890,7 @@ when the size of the array to be sorted is 1 (or 2),the array has one element,5.
 when the size of the array to be sorted is 1 (or 2),"when there is only one element in the array, or when the starting element in the array is the same as the ending element.",4.5,4.5875
 when the size of the array to be sorted is 1 (or 2),"when each half or the original array has nothing else to sort, and puts the halfs back together",2.5,
 when the size of the array to be sorted is 1 (or 2),the size of the list being sent is &lt;= 1,4.5,
-when the size of the array to be sorted is 1 (or 2),o(n log n),2.0,3.862833333333333
+when the size of the array to be sorted is 1 (or 2),o(n log n),2.0,3.8628333333333336
 a variable that contains the address in memory of another variable.,its a location in memory that contains the memory address of another location in memory that contains information.,5.0,
 a variable that contains the address in memory of another variable.,a pointer is a variable that contains a memory address as its value.,5.0,4.8125
 a variable that contains the address in memory of another variable.,a pointer is a variable which stores the address of another variable.,5.0,
@@ -2112,7 +2112,7 @@ implement the algorithm and measure the physical running time.,running the input
 "linked lists are dynamic structures, which allow for a variable number of elements to be stored.","a linked list has a dynamic size , but an array only has a fixed size and takes allot of extra operations to increase its size.",5.0,
 "linked lists are dynamic structures, which allow for a variable number of elements to be stored.",you do not have to predetermine your list size as you do with arrays. linked list have the ability to be as large as you want them adding memory as needed.,5.0,
 "linked lists are dynamic structures, which allow for a variable number of elements to be stored.",the main advantage to a linked list is that it can have it's size adjusted during runtime.,5.0,
-"linked lists are dynamic structures, which allow for a variable number of elements to be stored.",linked lists are able to grow in size. so elements can be added to the list.,5.0,4.196666666666666
+"linked lists are dynamic structures, which allow for a variable number of elements to be stored.",linked lists are able to grow in size. so elements can be added to the list.,5.0,4.196666666666667
 "linked lists are dynamic structures, which allow for a variable number of elements to be stored.","linked lists are not confined to a specific size, and can have elements added and removed far easier. they are also easier to traverse.",4.75,
 "linked lists are dynamic structures, which allow for a variable number of elements to be stored.",there is no predetermined length,5.0,
 "linked lists are dynamic structures, which allow for a variable number of elements to be stored.","inserts into a linked list are far cheaper than an insert into an array. with an array, all items after the one being inserted must me shifted, with a linked list, only the pointers are replaced.",4.5,

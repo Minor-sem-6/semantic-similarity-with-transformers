@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-from text_cleaning import clean_text
+from .text_cleaning import clean_text
 
 
 def preprocess_scientsbank(input_path, output_path):

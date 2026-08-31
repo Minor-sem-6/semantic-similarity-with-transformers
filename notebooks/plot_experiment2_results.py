@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import numpy as np
 import os
 
 OUTPUT_DIR = "results/experiment2"
@@ -27,7 +28,14 @@ plt.close()
 # -------- RMSE --------
 plt.figure(figsize=(8,5))
 sns.barplot(data=df, x="dataset", y="rmse", hue="model", palette=palette)
+
 plt.title("Experiment 2: RMSE Comparison")
+
+# 👉 Set Y-axis ticks at 0.25 intervals
+y_min = 0
+y_max = 1.75
+plt.yticks(np.arange(y_min, y_max+0.25, 0.25))
+
 plt.tight_layout()
 plt.savefig(f"{OUTPUT_DIR}/rmse_comparison.png")
 plt.close()

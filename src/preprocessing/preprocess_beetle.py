@@ -1,5 +1,5 @@
 import pandas as pd
-from text_cleaning import clean_text
+from .text_cleaning import clean_text
 
 
 def preprocess_beetle(input_path, output_path):

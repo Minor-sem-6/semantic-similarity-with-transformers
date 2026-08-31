@@ -341,7 +341,7 @@ unlimited number.,it depends on the number of objects. each object should have a
 unlimited number.,"theoretically unlimited, as long as they are defined by the programmer.",5.0,
 unlimited number.,as many as needed.,5.0,
 unlimited number.,as many as wanted/needed,5.0,
-unlimited number.,several,4.5,3.305416666666667
+unlimited number.,several,4.5,3.3054166666666664
 unlimited number.,one,0.0,
 unlimited number.,one,0.0,
 unlimited number.,there can be infinite constructors as long as the signature is different.,5.0,
@@ -1544,7 +1544,7 @@ push,push,5.0,
 push,push,5.0,
 push,the push method in the stack operations.,5.0,
 push,push,5.0,5.0
-push,enqueue corresponds with push dequeue corresponds with pop,4.5,3.9102083333333333
+push,enqueue corresponds with push dequeue corresponds with pop,4.5,3.9102083333333337
 push,"push corresponds with enqueue, both very similarly place new elements into their stack or queue",5.0,
 push,fifo: first in first out,1.5,3.820625
 push,push,5.0,

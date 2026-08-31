@@ -5,6 +5,7 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import numpy as np
 
 OUTPUT_DIR = "results/experiment3"
 
@@ -40,7 +41,21 @@ def plot_experiment3():
     plt.figure(figsize=(8, 5))
     sns.barplot(data=df, x="dataset", y="rmse",
                 hue="model", palette=palette)
+
     plt.title("Experiment 3: RMSE Comparison")
+
+    # 👉 Set Y-axis scale (0.25 steps)
+    y_min = 0
+    y_max = 1.75
+
+    ticks = np.arange(y_min, y_max + 0.25, 0.25)
+    plt.yticks(ticks)
+    plt.ylim(y_min, y_max)
+
+    # 👉 Add grid aligned with ticks
+    plt.grid(axis='y', linestyle='--', linewidth=0.7, alpha=0.7)
+    plt.gca().set_axisbelow(True)
+
     plt.tight_layout()
     plt.savefig(os.path.join(OUTPUT_DIR, "rmse_comparison.png"))
     plt.close()

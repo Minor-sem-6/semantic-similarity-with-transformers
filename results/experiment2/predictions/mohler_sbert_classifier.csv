@@ -641,7 +641,7 @@ they both involve repetition; they both have termination tests; they can both oc
 "in the array declaration, or by using an initializer list.","array lengths can be explicitly specified by inputing the number of elements between the brackets [ ] during declaration, or implicitly by including an initializer list without specifying a number between [ ], the compiler will automatically declare the array with the proper number of elements needed for the list.",5.0,
 "in the array declaration, or by using an initializer list.",specify an arrays size with a constant variable. and setting array elements with calculations.,3.5,
 "in the array declaration, or by using an initializer list.","statically, using {} and dynamically, using []",4.0,
-"in the array declaration, or by using an initializer list.","define it as array[5] or array[1,2,3,4,5]",4.5,4.474166666666666
+"in the array declaration, or by using an initializer list.","define it as array[5] or array[1,2,3,4,5]",4.5,4.474166666666667
 "in the array declaration, or by using an initializer list.",static and dynamic.,2.5,3.35625
 "in the array declaration, or by using an initializer list.",manually inside the brackets or automatically via an initializer list,5.0,
 "in the array declaration, or by using an initializer list.","you can use an initializer list, or simply tell the compiler how many elements you want in the array. for an initializer list: int a[] = {10, 2, 3, -4, 5}; for an elemental declaration: int b[5]; both arrays have 5 elements in them, but array a is already initialized.",5.0,
@@ -2249,7 +2249,7 @@ the height of the tree.,log(n) steps,4.75,
 the height of the tree.,the number of levels and the height of the tree,5.0,
 the height of the tree.,it is the same as the height of the tree.,5.0,
 the height of the tree.,"given n elements, it would take n/2 steps to find the search criteria.",1.5,
-the height of the tree.,log n,4.75,4.520833333333334
+the height of the tree.,log n,4.75,4.520833333333333
 the height of the tree.,depends on the location of the node you are looking for. if it is the root it is one step. else if it is smaller than the current you are on node you go to the left. if it is larger than the current node you are on go to the right.,1.875,
 the height of the tree.,2^n where n is the # of levels the binary tree has,1.875,
 the height of the tree.,the number of steps to search a node is the function n-1.,3.25,

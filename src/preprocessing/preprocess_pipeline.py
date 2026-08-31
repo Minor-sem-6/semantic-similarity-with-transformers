@@ -1,28 +1,44 @@
 import argparse
 
-from preprocess_mohler import preprocess_mohler
-from preprocess_scientsbank import preprocess_scientsbank
-from preprocess_beetle import preprocess_beetle
+from .preprocess_mohler import preprocess_mohler
+from .preprocess_scientsbank import preprocess_scientsbank
+from .preprocess_beetle import preprocess_beetle
 
 
-def main(dataset):
+def main(Dataset):
 
-    if dataset == "mohler":
+    if Dataset == "mohler":
         preprocess_mohler(
-            "data/raw/mohler/mohler_dataset_edited.csv",
-            "data/processed/mohler/mohler_processed.csv"
+            "Data/raw/mohler/mohler_Dataset_edited.csv",
+            "Data/processed/mohler/mohler_processed.csv"
         )
 
-    elif dataset == "scientsbank":
+    elif Dataset == "scientsbank":
         preprocess_scientsbank(
-            "data/raw/scientsbank/scientsbank_raw.csv",
-            "data/processed/scientsbank/scientsbank_processed.csv"
+            "Data/raw/scientsbank/scientsbank_raw.csv",
+            "Data/processed/scientsbank/scientsbank_processed.csv"
         )
 
-    elif dataset == "beetle":
+    elif Dataset == "beetle":
         preprocess_beetle(
-            "data/raw/beetle/beetle_raw.csv",
-            "data/processed/beetle/beetle_processed.csv"
+            "Data/raw/beetle/beetle_raw.csv",
+            "Data/processed/beetle/beetle_processed.csv"
+        )
+
+    elif Dataset == "all":
+        preprocess_mohler(
+            "Data/raw/mohler/mohler_Dataset_edited.csv",
+            "Data/processed/mohler/mohler_processed.csv"
+        )
+
+        preprocess_scientsbank(
+            "Data/raw/scientsbank/scientsbank_raw.csv",
+            "Data/processed/scientsbank/scientsbank_processed.csv"
+        )
+
+        preprocess_beetle(
+            "Data/raw/beetle/beetle_raw.csv",
+            "Data/processed/beetle/beetle_processed.csv"
         )
 
     else:
